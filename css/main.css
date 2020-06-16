@@ -188,3 +188,18 @@ Personalizado
 	top: 4px !important;
 	width: 35px !important;
 }
+
+@media (max-width: 768px) {
+	#top-left-logo {
+		background-image: url("../img/logo-min.png");
+		background-size: 336px 49.6px;
+		background-repeat: no-repeat;
+	}
+}
+@media (min-width: 769px) {
+	#top-left-logo {
+		background-image: url("../img/logo.png");
+		background-size: 336px 49.6px;
+		background-repeat: no-repeat;
+	}
+}

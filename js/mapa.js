@@ -8,13 +8,13 @@ var mapa = "";
 
 //Change logotype
 $('#top-left-logo-link').attr("href","http://www.ign.gob.ar/");
-$('#top-left-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/logo.png");
+//$('#top-left-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/logo.png");
 $('#top-left-logo').attr("alt","Logo Instituto Geográfico Nacional");
 $('#top-left-logo').attr("title","Instituto Geográfico Nacional");
 //$('#top-left-logo').css("width","100px");
-//$('#top-right-logo-link').attr("href","templates/argenmap-leaflet-ign-tpl/files/referencias.pdf");
+//$('#top-right-logo-link').attr("href","templates/argenmap-leaflet-mindef-tpl/files/referencias.pdf");
 $('#top-right-logo-link').attr("href","#");
-$('#top-right-logo').attr("src","templates/argenmap-leaflet-ign-tpl/img/referencias_icono.png");
+$('#top-right-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/referencias_icono.png");
 $('#top-right-logo').attr("alt","Referencias");
 $('#top-right-logo').attr("title","Referencias");
 //$('#top-right-logo').css("width","35px");
@@ -22,11 +22,11 @@ $('#top-right-logo').attr("title","Referencias");
 
 $('#top-right-logo').on('click', function() {
   event.preventDefault();
-  //$.fancybox.open( '<div class="message"><h2>Referencias</h2><p><img src="templates/argenmap-leaflet-ign-tpl/img/referencias.png" style="width:50%"></p></div>' );
+  //$.fancybox.open( '<div class="message"><h2>Referencias</h2><p><img src="templates/argenmap-leaflet-mindef-tpl/img/referencias.png" style="width:50%"></p></div>' );
   //$.fancybox.getInstance();
   //$(".fancybox").fancybox({"width":400,"height":300});
   $.fancybox.open({
-	src : 'templates/argenmap-leaflet-ign-tpl/img/referencias.png',
+	src : 'templates/argenmap-leaflet-mindef-tpl/img/referencias.png',
 	type : 'image',
 	closeBtn: 'true'
   });
@@ -39,29 +39,29 @@ gestorMenu.addPlugin("leaflet","https://cdnjs.cloudflare.com/ajax/libs/leaflet/1
     // Awesome Markers
 	gestorMenu.addPlugin("AwesomeMarkers","https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.1/leaflet.awesome-markers.min.js");
 	// Leaflet Zoomhome plugin
-	gestorMenu.addPlugin("ZoomHome","templates/argenmap-leaflet-ign-tpl/js/leaflet-zoomhome/dist/leaflet.zoomhome.min.js");
+	gestorMenu.addPlugin("ZoomHome","templates/argenmap-leaflet-mindef-tpl/js/leaflet-zoomhome/dist/leaflet.zoomhome.min.js");
 	// Leaflet Bing Layer
-	gestorMenu.addPlugin("BingLayer","templates/argenmap-leaflet-ign-tpl/js/leaflet-bing-layer-gh-pages/leaflet-bing-layer.js");
+	gestorMenu.addPlugin("BingLayer","templates/argenmap-leaflet-mindef-tpl/js/leaflet-bing-layer-gh-pages/leaflet-bing-layer.js");
 	// <!-- Leaflet Minimap plugin -->
-	gestorMenu.addPlugin("minimap","templates/argenmap-leaflet-ign-tpl/js/leaflet-minimap/Control.MiniMap.js");
+	gestorMenu.addPlugin("minimap","templates/argenmap-leaflet-mindef-tpl/js/leaflet-minimap/Control.MiniMap.js");
 	// <!-- Leaflet Locate plugin -->
-	gestorMenu.addPlugin("locate","templates/argenmap-leaflet-ign-tpl/js/leaflet-locate/L.Control.Locate.min.js");
+	gestorMenu.addPlugin("locate","templates/argenmap-leaflet-mindef-tpl/js/leaflet-locate/L.Control.Locate.min.js");
 	// <!-- Leaflet Mouse Position plugin -->
-	gestorMenu.addPlugin("MousePosition","templates/argenmap-leaflet-ign-tpl/js/leaflet-mouseposition/src/L.Control.MousePosition.js");
+	gestorMenu.addPlugin("MousePosition","templates/argenmap-leaflet-mindef-tpl/js/leaflet-mouseposition/src/L.Control.MousePosition.js");
 	// <!-- Leaflet Measure plugin --> 
-	gestorMenu.addPlugin("Measure","templates/argenmap-leaflet-ign-tpl/js/leaflet-measure/leaflet-measure.js");
+	gestorMenu.addPlugin("Measure","templates/argenmap-leaflet-mindef-tpl/js/leaflet-measure/leaflet-measure.js");
 	// <!-- Leaflet EasyPrint plugin -->
-	gestorMenu.addPlugin("EasyPrint","templates/argenmap-leaflet-ign-tpl/js/leaflet-easyPrint/bundle.js");
+	gestorMenu.addPlugin("EasyPrint","templates/argenmap-leaflet-mindef-tpl/js/leaflet-easyPrint/bundle.js");
 	// <!-- Leaflet Control.FullScreen plugin -->
-	gestorMenu.addPlugin("FullScreen","templates/argenmap-leaflet-ign-tpl/js/leaflet-fullscreen/Control.FullScreen.js");
+	gestorMenu.addPlugin("FullScreen","templates/argenmap-leaflet-mindef-tpl/js/leaflet-fullscreen/Control.FullScreen.js");
 	// <!-- Leaflet BetterWMS -->
-	gestorMenu.addPlugin("betterWMS","templates/argenmap-leaflet-ign-tpl/js/leaflet-wms/leaflet.wms.js");
+	gestorMenu.addPlugin("betterWMS","templates/argenmap-leaflet-mindef-tpl/js/leaflet-wms/leaflet.wms.js");
 	// <!-- Leaflet Draw -->  
 	gestorMenu.addPlugin("Draw","https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js")
 	// <!-- Leaflet SimpleGraticule -->
-	gestorMenu.addPlugin("graticula","templates/argenmap-leaflet-ign-tpl/js/leaflet-simplegraticule/L.SimpleGraticule.js");
+	gestorMenu.addPlugin("graticula","templates/argenmap-leaflet-mindef-tpl/js/leaflet-simplegraticule/L.SimpleGraticule.js");
 	// <!-- Leaflet WMTS -->
-	gestorMenu.addPlugin("WMTS","templates/argenmap-leaflet-ign-tpl/js/leaflet-wmts/leaflet-tilelayer-wmts.js");
+	gestorMenu.addPlugin("WMTS","templates/argenmap-leaflet-mindef-tpl/js/leaflet-wmts/leaflet-tilelayer-wmts.js");
 });
 
 // Add plugins to map when (and if) avaiable
