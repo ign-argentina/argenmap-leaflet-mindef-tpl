@@ -497,6 +497,7 @@ function showMainMenuTpl() {
     gestorMenu.setLoadingDOM(".loading");
     gestorMenu.setPrintCallback(printFinished);
     //gestorMenu.setLazyInitialization(true);
+	gestorMenu.setShowSearcher(true);
     gestorMenu.print();
 }
 
