@@ -7,18 +7,26 @@ var argenmap = "";
 var mapa = "";
 
 //Change logotype
-$('#top-left-logo-link').attr("href","http://www.ign.gob.ar/");
-//$('#top-left-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/logo.png");
-$('#top-left-logo').attr("alt","Logo Instituto Geográfico Nacional");
-$('#top-left-logo').attr("title","Instituto Geográfico Nacional");
-//$('#top-left-logo').css("width","100px");
-//$('#top-right-logo-link').attr("href","templates/argenmap-leaflet-mindef-tpl/files/referencias.pdf");
+
+document.title = "Ministerio de Defensa";
+
+$('#top-left-logo-link').attr("href","https://www.argentina.gob.ar/defensa");
+/* $('#top-left-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/logo.svg"); */
+$('#top-left-logo').attr("alt","Logo Ministerio de Defensa");
+$('#top-left-logo').attr("title","Ministerio de Defensa");
+
+/* Reemplazado por referencias */
+/*
+$('#top-right-logo-link').attr("href","https://www.argentina.gob.ar/");
+$('#top-right-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/right_logo.svg");
+$('#top-right-logo').attr("alt","Argentina Unida");
+$('#top-right-logo').attr("title","Ministerio de Defensa");
+*/
+
 $('#top-right-logo-link').attr("href","#");
 $('#top-right-logo').attr("src","templates/argenmap-leaflet-mindef-tpl/img/referencias_icono.png");
 $('#top-right-logo').attr("alt","Referencias");
 $('#top-right-logo').attr("title","Referencias");
-//$('#top-right-logo').css("width","35px");
-//$('#top-right-logo').css("top","0px");
 
 $('#top-right-logo').on('click', function() {
   event.preventDefault();
