@@ -194,6 +194,7 @@ Personalizado
 		background-image: url("../img/logo.svg");
 		background-size: 336px 49.6px;
 		background-repeat: no-repeat;
+		height: 50px;
 	}
 }
 @media (min-width: 769px) {
@@ -201,5 +202,6 @@ Personalizado
 		background-image: url("../img/logo.svg");
 		background-size: 336px 49.6px;
 		background-repeat: no-repeat;
+		height: 50px;
 	}
 }
