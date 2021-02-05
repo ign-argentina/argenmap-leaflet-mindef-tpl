@@ -249,19 +249,6 @@ $("body").on("pluginLoad", function(event, plugin){
 					  fullscreenElement: false // Dom element to render in full screen, false by default, fallback to map._container
 					}).addTo(mapa);	
 
-					mapa.on('enterFullscreen', function(){
-					  if (miniMap._minimized) {
-					    miniMap._restore();
-					    window.setTimeout( miniMap_Minimize, 2000 );
-					  }
-					});
-
-					mapa.on('exitFullscreen', function(){
-					  if (miniMap._minimized) {
-						miniMap._restore();
-						window.setTimeout( miniMap_Minimize, 2000 );
-					  }
-					});
 					gestorMenu.plugins['FullScreen'].setStatus('visible');
 					break;
 				case 'graticula':
