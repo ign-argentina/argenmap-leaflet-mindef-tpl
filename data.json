@@ -13,7 +13,7 @@
           "nombre": "argenmap",
           "servicio": "tms",
           "version": "1.0.0",
-          "attribution": "<a href='http://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='http://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap.png",
           "peso": 10,
@@ -24,7 +24,7 @@
           "nombre": "argenmap_gris",
           "servicio": "tms",
           "version": "1.0.0",
-          "attribution": "<a href='http://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='http://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap-gris.png",
           "peso": 20
@@ -72,7 +72,11 @@
       ]
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 20,
       "nombre": "Mapa cultural de la Defensa",
@@ -84,19 +88,83 @@
       "host": "https://idemindef.ign.gob.ar/geoserver/cultura"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
-      "peso": 30,
-      "nombre": "Fábricas y empresas",
+      "peso": 31,
+      "nombre": "Fabricaciones Militares",
       "short_abstract": "",
       "class": "",
-      "seccion": "fabricas-empresas",
+      "seccion": "fabricaciones-militares",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas"
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
+      "allowed_layers": ["empresas_fm", "fabrica_militar"]
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 32,
+      "nombre": "Fabrica Argentina de Aviones",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "fabrica-aviones",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
+      "allowed_layers": ["empresas_fadea", "fadea"]
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 33,
+      "nombre": "Complejo Industrial y Naval Argentino",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "cinar",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
+      "allowed_layers": ["empresas_cinar"]
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 56,
+      "nombre": "Generales",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "generales",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
+      "allowed_layers": [
+        "empresas",
+        "fuerzas_y_otros",
+        "institutos_y_servicios"
+      ]
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 40,
       "nombre": "Límites y unidades territoriales",
@@ -108,7 +176,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/limites"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 41,
       "nombre": "Industria y servicios",
@@ -120,19 +192,27 @@
       "host": "https://wms.ign.gob.ar/geoserver/industria-servicios"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 42,
       "nombre": "Hábitat e infraestructura social",
       "short_abstract": "Asentamientos humanos, edificaciones, etc.",
       "class": "",
-      "seccion": "habitat-infraestructura-social",
+      "seccion": "infraestructura-social",
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 43,
       "nombre": "Redes geodésicas",
@@ -144,7 +224,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 50,
       "nombre": "Servicio Meteorológico Nacional",
@@ -156,7 +240,11 @@
       "host": "https://idemindef.ign.gob.ar/geoserver/meteorologico"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 55,
       "nombre": "Servicio de Hidrografía Naval",
@@ -168,7 +256,11 @@
       "host": "https://idemindef.ign.gob.ar/geoserver/hidrografia"
     },
     {
-      "tab": { "id": "Datos", "searcheable": true, "content": "Datos" },
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
       "type": "wmslayer",
       "peso": 60,
       "nombre": "Fuerzas Armadas",
@@ -178,30 +270,40 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://idemindef.ign.gob.ar/geoserver/fuerzas_armadas"
-    }
-  ],
-  "folders": [
+    },
     {
-      "nombre": "Secretaría de Investigación, Política Industrial y Producción para la Defensa",
-      "resumen": "",
-      "folders": [
-        {
-          "nombre": "Instituto Geográfico Nacional",
-          "resumen": "",
-          "items": [
-            "limites",
-            "habitat-infraestructura-social",
-            "industria-servicios",
-            "geodesia-demarcacion"
-          ]
-        }
-      ],
-      "items": [
-        "fabricas-empresas",
-        "servicio-meteorologico-nacional",
-        "servicio-hidrografia-naval"
-      ]
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 55,
+      "nombre": "Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF)",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "citedef",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": ""
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 60,
+      "nombre": "Política de Género",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "genero",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/genero"
     }
   ],
-  "template": "argenmap-leaflet-mindef-tpl"
+  "template": "argenmap-leaflet-mindef-tpl",
+  "template_feature_info_exception": ["gid"]
 }

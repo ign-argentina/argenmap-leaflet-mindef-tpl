@@ -1,4 +1,37 @@
 {
+  "folders": [
+    {
+      "nombre": "Secretaría de Investigación, Política Industrial y Producción para la Defensa",
+      "resumen": "",
+      "folders": [
+        {
+          "nombre": "Instituto Geográfico Nacional",
+          "resumen": "",
+          "items": [
+            "limites",
+            "infraestructura-social",
+            "industria-servicios",
+            "geodesia-demarcacion"
+          ]
+        }
+      ],
+      "items": [
+        "fabricaciones-militares",
+        "fabrica-aviones",
+        "cinar",
+        "servicio-meteorologico-nacional",
+        "servicio-hidrografia-naval",
+        "citedef",
+        "generales"
+      ]
+    },
+    {
+      "nombre": "Fuerzas Armadas",
+      "resumen": "",
+      "folders": [],
+      "items": ["fuerzas-armadas", "genero"]
+    }
+  ],
   "table": {
     "isActive": false,
     "rowsLimit": 5
