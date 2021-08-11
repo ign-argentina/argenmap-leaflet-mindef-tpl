@@ -57,5 +57,36 @@
       "max": 21
     }
   },
-  "showSearchBar": false
+  "showSearchBar": false,
+  "referencias": {
+    "show": true,
+    "src": "src/styles/images/referencias_icono.png",
+    "width":"35px",
+    "height":"44px"
+  },
+  "theme": {
+    "bodyBackground": "#008dc9",
+    "headerBackground": "#008dc9",
+    "menuBackground": "#008dc9",
+    "activeLayer": "#33b560",
+    "textMenu":"white",
+    "textMenuStyle":"",
+    "textLegendMenu":"#dddddd",
+    "textLegendMenuStyle":"",
+    "iconBar":"#4f4f4f"
+    },
+  "logo": {
+    "title":"Ministerio de Defensa",
+    "src": "src/config/styles/images/logo.svg",
+    "height": "50%",
+    "width": "",
+    "style": "",
+    "srcLogoMini": "src/config/styles/images/logo_responsive.png",
+    "miniHeight": "",
+    "miniWidth": "",
+    "ministyle": ""
+  },
+  "title": "Ministerio de Defensa",
+  "website": "https://www.argentina.gob.ar/defensa",
+  "favicon": "src/config/styles/images/favicon.ico"
 }
