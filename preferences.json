@@ -1,0 +1,112 @@
+{
+  "folders": [
+    {
+      "nombre": "Secretaría de Investigación, Política Industrial y Producción para la Defensa",
+      "resumen": "",
+      "folders": [
+        {
+          "nombre": "Instituto Geográfico Nacional",
+          "resumen": "",
+          "items": [
+            "limites",
+            "infraestructura-social",
+            "industria-servicios",
+            "geodesia-demarcacion"
+          ]
+        }
+      ],
+      "items": [
+        "fabricaciones-militares",
+        "fabrica-aviones",
+        "cinar",
+        "servicio-meteorologico-nacional",
+        "servicio-hidrografia-naval",
+        "citedef",
+        "generales"
+      ]
+    },
+    {
+      "nombre": "Fuerzas Armadas",
+      "resumen": "",
+      "folders": [],
+      "items": ["fuerzas-armadas", "genero"]
+    }
+  ],
+  "table": {
+    "isActive": false,
+    "rowsLimit": 5
+  },
+  "charts": {
+    "isActive": false
+  },
+  "metaTags": {
+    "title": "",
+    "description": "",
+    "image": ""
+  },
+  "analytics_ids": ["G-5L2LMQ1STF"],
+  "excluded_plugins": ["minimap"],
+  "mapConfig": {
+    "center": {
+      "latitude": -40,
+      "longitude": -59
+    },
+    "zoom": {
+      "initial": 4,
+      "min": 3,
+      "max": 21
+    }
+  },
+  "showSearchBar": false,
+  "referencias": {
+    "show": true,
+    "icon": "src/config/styles/images/referencias.png",
+    "image": "src/config/styles/images/legends/referencias.png",
+    "width": "",
+    "height": ""
+  },
+  "searchbar": {
+    "isActive": true,
+    "top": "5px",
+    "left": "40%",
+    "color_focus": "#008dc9",
+    "background_color": "rgba(255, 255, 255, 0.7)",
+    "strings": {
+      "placeholder": "Buscar lugar..."
+    }
+  },
+  "geocoder": {
+    "url": "https://api.ign.gob.ar/buscador/",
+    "search": "search",
+    "url_by_id": "places",
+    "query": "q",
+    "lang": "es",
+    "limit": 5,
+    "key": ""
+  },
+  "theme": {
+    "bodyBackground": "#008dc9",
+    "headerBackground": "#008dc9",
+    "menuBackground": "#008dc9",
+    "activeLayer": "#33b560",
+    "textMenu":"white",
+    "textMenuStyle":"",
+    "textLegendMenu":"#dddddd",
+    "textLegendMenuStyle":"",
+    "iconBar":"#4f4f4f"
+    },
+  "logo": {
+    "title":"Ministerio de Defensa",
+    "src": "src/config/styles/images/logo.svg",
+    "height": "50%",
+    "width": "",
+    "style": "",
+    "srcLogoMini": "src/config/styles/images/logo_responsive.png",
+    "miniHeight": "",
+    "miniWidth": "",
+    "ministyle": ""
+  },
+  "title": "Ministerio de Defensa",
+  "website": "https://www.argentina.gob.ar/defensa",
+  "favicon": "src/config/styles/images/favicon.ico"
+}
