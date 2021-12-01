@@ -85,7 +85,7 @@
       "seccion": "mapa-cultural-defensa",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/cultura"
+      "host": "https://idemindef.ign.gob.ar/geoserver/cultura/wms"
     },
     {
       "tab": {
@@ -101,8 +101,12 @@
       "seccion": "fabricaciones-militares",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
-      "allowed_layers": ["empresas_fm", "fabrica_militar"]
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas/wms",
+      "allowed_layers": ["empresas_fm", "fabrica_militar"],
+      "icons": {
+        "empresas_fm": "src/config/styles/images/legends/fabricaciones_militares.svg",
+        "fabrica_militar": "src/config/styles/images/legends/fabricaciones_militares.svg"
+      }
     },
     {
       "tab": {
@@ -118,8 +122,12 @@
       "seccion": "fabrica-aviones",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
-      "allowed_layers": ["empresas_fadea", "fadea"]
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas/wms",
+      "allowed_layers": ["empresas_fadea", "fadea"],
+      "icons": {
+        "empresas_fadea": "src/config/styles/images/legends/fadea.svg",
+        "fadea": "src/config/styles/images/legends/fadea.svg"
+      }
     },
     {
       "tab": {
@@ -135,8 +143,11 @@
       "seccion": "cinar",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
-      "allowed_layers": ["empresas_cinar"]
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas/wms",
+      "allowed_layers": ["empresas_cinar"],
+      "icons": {
+        "empresas_cinar": "src/config/styles/images/legends/cinar.svg"
+      }
     },
     {
       "tab": {
@@ -152,7 +163,7 @@
       "seccion": "generales",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas",
+      "host": "https://idemindef.ign.gob.ar/geoserver/fabricas_empresas/wms",
       "allowed_layers": [
         "empresas",
         "fuerzas_y_otros",
@@ -173,7 +184,7 @@
       "seccion": "limites",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/limites"
+      "host": "https://wms.ign.gob.ar/geoserver/limites/wms"
     },
     {
       "tab": {
@@ -189,7 +200,7 @@
       "seccion": "industria-servicios",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/industria-servicios"
+      "host": "https://wms.ign.gob.ar/geoserver/industria-servicios/wms"
     },
     {
       "tab": {
@@ -205,7 +216,7 @@
       "seccion": "infraestructura-social",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social"
+      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social/wms"
     },
     {
       "tab": {
@@ -221,7 +232,7 @@
       "seccion": "geodesia-demarcacion",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion"
+      "host": "https://wms.ign.gob.ar/geoserver/geodesia-demarcacion/wms"
     },
     {
       "tab": {
@@ -237,7 +248,7 @@
       "seccion": "servicio-meteorologico-nacional",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/meteorologico"
+      "host": "https://idemindef.ign.gob.ar/geoserver/meteorologico/wms"
     },
     {
       "tab": {
@@ -253,7 +264,7 @@
       "seccion": "servicio-hidrografia-naval",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/hidrografia"
+      "host": "https://idemindef.ign.gob.ar/geoserver/hidrografia/wms"
     },
     {
       "tab": {
@@ -269,23 +280,7 @@
       "seccion": "fuerzas-armadas",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/fuerzas_armadas"
-    },
-    {
-      "tab": {
-        "id": "Datos",
-        "searcheable": true,
-        "content": "Datos"
-      },
-      "type": "wmslayer",
-      "peso": 55,
-      "nombre": "Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF)",
-      "short_abstract": "",
-      "class": "",
-      "seccion": "citedef",
-      "servicio": "wms",
-      "version": "1.3.0",
-      "host": ""
+      "host": "https://idemindef.ign.gob.ar/geoserver/fuerzas_armadas/wms"
     },
     {
       "tab": {
@@ -301,7 +296,7 @@
       "seccion": "genero",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/genero"
+      "host": "https://idemindef.ign.gob.ar/geoserver/genero/wms"
     }
   ],
   "template": "argenmap-leaflet-mindef-tpl",
