@@ -305,6 +305,22 @@
         "content": "Datos"
       },
       "type": "wmslayer",
+      "peso": 62,
+      "nombre": "Asentamientos humanos",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "asentamientos-humanos",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/asentamientos-humanos/wms"
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
       "peso": 65,
       "nombre": "ARSAT",
       "short_abstract": "",
