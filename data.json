@@ -297,6 +297,22 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://idemindef.ign.gob.ar/geoserver/genero/wms"
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 65,
+      "nombre": "ARSAT",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "arsat",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/arsat/wms"
     }
   ],
   "template": "argenmap-leaflet-mindef-tpl",
