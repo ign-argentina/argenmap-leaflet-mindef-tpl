@@ -376,7 +376,9 @@
       "version": "1.3.0",
       "host": "https://idemindef.ign.gob.ar/geoserver/territorio-insular/wms",
       "icons": {
-        "linea_230mm_buffer": "src/config/styles/images/legends/linea_230mm_buffer.png"
+        "linea_230mm_buffer": "src/config/styles/images/legends/linea_230mm_buffer.png",
+        "linea_350mm_buffer": "src/config/styles/images/legends/linea_350mm_buffer.png",
+        "zee_sin_georgias_y_sandwich": "src/config/styles/images/legends/zee_sin_georgias_y_sandwich.png"
       }
     },
     {
@@ -393,9 +395,13 @@
       "seccion": "territorio-antartico",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-antartico/wms"
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-antartico/wms",
+      "icons": {
+        "doscientas_millas_sector_antartico_70S": "src/config/styles/images/legends/doscientas_millas_sector_antartico_70S.png",
+        "doscientas_millas_sector_antartico_entre70S_y_80S": "src/config/styles/images/legends/doscientas_millas_sector_antartico_entre70S_y_80S.png"
+      }
     }
   ],
   "template": "argenmap-leaflet-mindef-tpl",
-  "template_feature_info_exception": ["gid"]
+  "template_feature_info_exception": ["gid","ID"]
 }
