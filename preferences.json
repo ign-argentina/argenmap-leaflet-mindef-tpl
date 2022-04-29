@@ -30,6 +30,12 @@
       "resumen": "",
       "folders": [],
       "items": ["fuerzas-armadas", "genero"]
+    },
+    {
+      "nombre": "Áreas de Influencia",
+      "resumen": "",
+      "folders": [],
+      "items": ["territorio-nacional", "territorio-insular", "territorio-antartico"]
     }
   ],
   "table": {

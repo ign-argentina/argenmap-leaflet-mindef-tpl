@@ -329,6 +329,54 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://idemindef.ign.gob.ar/geoserver/arsat/wms"
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 70,
+      "nombre": "Territorio Nacional",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "territorio-nacional",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-nacional/wms"
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 75,
+      "nombre": "Territorio Insular",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "territorio-insular",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-insular/wms"
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 75,
+      "nombre": "Territorio Antártico",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "territorio-antartico",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-antartico/wms"
     }
   ],
   "template": "argenmap-leaflet-mindef-tpl",
