@@ -35,7 +35,7 @@
       "nombre": "Áreas de Influencia",
       "resumen": "",
       "folders": [],
-      "items": ["territorio-nacional", "territorio-insular", "territorio-antartico"]
+      "items": ["territorio-continental", "espacios-maritimos", "territorio-antartico"]
     }
   ],
   "table": {

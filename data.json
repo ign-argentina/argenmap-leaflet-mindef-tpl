@@ -352,13 +352,13 @@
       },
       "type": "wmslayer",
       "peso": 70,
-      "nombre": "Territorio Nacional",
+      "nombre": "Territorio Continental",
       "short_abstract": "",
       "class": "",
-      "seccion": "territorio-nacional",
+      "seccion": "territorio-continental",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-nacional/wms"
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-continental/wms"
     },
     {
       "tab": {
@@ -368,13 +368,13 @@
       },
       "type": "wmslayer",
       "peso": 75,
-      "nombre": "Territorio Insular",
+      "nombre": "Espacios Marítimos",
       "short_abstract": "",
       "class": "",
-      "seccion": "territorio-insular",
+      "seccion": "espacios-maritimos",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-insular/wms",
+      "host": "https://idemindef.ign.gob.ar/geoserver/espacios-maritimos/wms",
       "icons": {
         "linea_230mm_buffer": "src/config/styles/images/legends/linea_230mm_buffer.png",
         "linea_350mm_buffer": "src/config/styles/images/legends/linea_350mm_buffer.png",
