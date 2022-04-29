@@ -374,7 +374,10 @@
       "seccion": "territorio-insular",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-insular/wms"
+      "host": "https://idemindef.ign.gob.ar/geoserver/territorio-insular/wms",
+      "icons": {
+        "linea_230mm_buffer": "src/config/styles/images/legends/linea_230mm_buffer.png"
+      }
     },
     {
       "tab": {
