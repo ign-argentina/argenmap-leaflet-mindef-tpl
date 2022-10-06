@@ -400,6 +400,22 @@
         "doscientas_millas_sector_antartico_70S": "src/config/styles/images/legends/doscientas_millas_sector_antartico_70S.png",
         "doscientas_millas_sector_antartico_entre70S_y_80S": "src/config/styles/images/legends/doscientas_millas_sector_antartico_entre70S_y_80S.png"
       }
+    },
+    {
+      "tab": {
+        "id": "Datos",
+        "searcheable": true,
+        "content": "Datos"
+      },
+      "type": "wmslayer",
+      "peso": 75,
+      "nombre": "Malvinas",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "malvinas",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://idemindef.ign.gob.ar/geoserver/malvinas/wms"
     }
   ],
   "template": "argenmap-leaflet-mindef-tpl",
