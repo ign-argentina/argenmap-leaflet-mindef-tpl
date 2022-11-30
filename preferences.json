@@ -65,9 +65,8 @@
   },
   "showSearchBar": false,
   "referencias": {
-    "show": true,
+    "show": false,
     "icon": "src/config/styles/images/referencias.png",
-    "image": "src/config/styles/images/legends/referencias.png",
     "width": "",
     "height": ""
   },
@@ -80,6 +79,52 @@
     "strings": {
       "placeholder": "Buscar lugar..."
     }
+  },
+  "login":{
+    "isActive": false
+  },
+  "geoprocessing": {
+    "isActive": true,
+    "buttonTitle": "Geoprocesos",
+    "buttonIcon": "fa fa-cog",
+    "dialogTitle": "Geoprocesos",
+    "strings": {
+      "bounds": "Areas a procesar"
+    },
+    "availableProcesses": [
+      {
+        "name": "Curvas de Nivel",
+        "geoprocess": "contour",
+        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0",
+        "layer": "alos_unificado",
+        "namePrefix": "curvas_de_nivel_",
+        "styles": {
+          "line_color": "#e0b44c",
+          "line_weight": 0.8,
+          "d_line_m": 500,
+          "d_line_color": "#967529",
+          "d_weigth": 1,
+          "smoothFactor": 1.7
+        }
+      },
+      {
+        "name": "Cota",
+        "geoprocess": "waterRise",
+        "namePrefix": "cota_",
+        "layer": "geoprocesos:alos_unificado",
+        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/ows?service=WPS&version=1.0.0"
+      },
+      {
+        "name": "Área de influencia",
+        "geoprocess": "buffer",
+        "namePrefix": "area_de_influencia_"
+      },
+      {
+        "name": "Perfíl de Elevación",
+        "geoprocess": "elevationProfile",
+        "namePrefix": "perfil_de_elevacion_"
+      }
+    ]
   },
   "geocoder": {
     "url": "https://api.ign.gob.ar/buscador/",
@@ -104,13 +149,16 @@
   "logo": {
     "title":"Ministerio de Defensa",
     "src": "src/config/styles/images/logo.svg",
-    "height": "50%",
+    "height": "",
     "width": "",
-    "style": "",
-    "srcLogoMini": "src/config/styles/images/logo_responsive.png",
+    "style": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/",
+    "srcLogoMini": "src/config/styles/images/logo.svg",
     "miniHeight": "",
     "miniWidth": "",
-    "ministyle": ""
+    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/"
+  },
+  "logoText": {
+    "content": "Ministerio de Defensa"
   },
   "title": "Ministerio de Defensa",
   "website": "https://www.argentina.gob.ar/defensa",

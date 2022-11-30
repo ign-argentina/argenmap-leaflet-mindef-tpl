@@ -16,8 +16,15 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap.png",
+          "legend": "src/config/styles/images/legends/argenmap.jpg",
           "peso": 10,
-          "selected": true
+          "selected": true,
+          "zoom": {
+            "min": 3,
+            "max": 19,
+            "nativeMin": 3,
+            "nativeMax": 19
+          }
         },
         {
           "titulo": "Argenmap gris",
@@ -27,7 +34,14 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/styles/images/argenmap-gris.png",
-          "peso": 20
+          "legend": "src/config/styles/images/legends/argenmap-gris.jpg",
+          "peso": 20,
+          "zoom": {
+            "min": 3,
+            "max": 19,
+            "nativeMin": 3,
+            "nativeMax": 19
+          }
         },
         {
           "titulo": "Argenmap oscuro",
@@ -37,10 +51,13 @@
           "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
           "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/argenmap_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png",
           "legendImg": "src/config/styles/images/argenmap-oscuro.png",
+          "legend": "src/config/styles/images/legends/argenmap-oscuro.jpg",
           "peso": 25,
           "zoom": {
             "min": 3,
-            "max": 19
+            "max": 19,
+            "nativeMin": 3,
+            "nativeMax": 19
           }
         },
         {
@@ -61,7 +78,13 @@
           "attribution": "Mapa topográfico © Esri",
           "host": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}",
           "legendImg": "src/styles/images/esrit.png",
-          "peso": 40
+          "peso": 40,
+          "zoom": {
+            "min": 3,
+            "max": 8,
+            "nativeMin": 3,
+            "nativeMax": 8
+          }
         },
         {
           "titulo": "Imágenes satelitales Here",
@@ -71,7 +94,13 @@
           "attribution": "Imágenes satelitales © here",
           "host": "https://2.aerial.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8?app_id=XiMlA4JwMurUFFYUWYe3&app_code=oTsmqovbl2YudG3E0UlxDA",
           "legendImg": "src/styles/images/here.png",
-          "peso": 50
+          "peso": 50,
+          "zoom": {
+            "min": 3,
+            "max": 21,
+            "nativeMin": 3,
+            "nativeMax": 20
+          }
         },
         {
           "titulo": "Imágenes satelitales Bing",
